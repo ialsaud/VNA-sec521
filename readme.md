@@ -32,3 +32,15 @@
 * type `cooja version-number-attack` 
 * now the cooja simulation with our set up will be spun up. 
 
+## Important directories and config files.
+* File for the experiement configuration:
+  * `/home/user/Experiments/<attack-name>.json`
+  * (guidance)[https://rpl-attacks.readthedocs.io/en/latest/campaigns/].
+  * in this file you will be able to adjust the type of network topology, number of motes, ..etc.
+* Folder where rpl attack framework saves experiment, simulation config, and simulation data:
+  * `/home/user/Experiments/<attack-name>/`
+  * in this folder you will find simulation data such as relationships and pcaps.
+* File where building blocks (for malicious motes) are stored and created:
+  * `home/user/templates/building-blocks.json`
+  * (guidance)[https://rpl-attacks.readthedocs.io/en/latest/building-blocks/]
+  * in this file you add new types of attack motes to be simulated. 
