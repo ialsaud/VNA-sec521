@@ -16,7 +16,7 @@
 * from the same working directory run `vagrant up`
   * this will download and run the rpl attack framework virtual machine. 
   * note: you might face some USB error, open virtualbox and disable USB adapter on the vm. 
-* after the machine has appeared running, such as follow: (pass: user)
+* after the machine has appeared running (pass: user)
 
 
 * open a terminal and git clone this reposotory. 
@@ -26,7 +26,7 @@
 * rename the newly copied folder into `version-number-attack`
 
 ## Running the simulation
-* open the rpl attack framework program, from the icon in desktop. Icon such as follow:
+* open the rpl attack framework program, from the icon in desktop. Icon with name `RPL Attacks Framework`
 
 
 * type `cooja version-number-attack` 
